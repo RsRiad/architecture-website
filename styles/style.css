@@ -10,12 +10,24 @@
   /* header */
 
   /* nav-bar */
-  .nav-bar{
+  .flex{
     display: flex;
+  }
+  .text-gray{
+    color: #424242;
+  }
+  .text-light-gray{
+    columns: #727272;
+  }
+  .nav-bar{
     justify-content: space-between;
   }
-  .nav-links{
-    display: flex;
-    gap: 30px;
-    
+  .nav-items{
+    margin-right: 30px;
+    list-style: none;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .nav-link{
+    text-decoration: none;
   }
